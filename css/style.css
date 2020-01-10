@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+   /*  background: #6d6ed6;*/
+    background-color: #6d6ed6;
+}
+
+.container{
+   /* position: absolute;
+    top: 30%;
+    left: 40%;
+    float: left;
+    */
+
+    background: #e7e5e5;
+    margin: 150px 400px;
+    padding: 50px 30px;
+}
+
+#generate-btn{
+       margin-left: 220px;
+       padding: 20px;
+       font-weight: normal;
+       font-size: 1.6rem;
+       border-radius: 5px;
+       border: none;
+       outline: hidden;
+       cursor: pointer;
+       background: #584352;
+       color: white;  
+       transform: translateX(-40%);
+}
+
+blockquote::before{
+    content: "\201C";
+    font-size: 4em;
+    color: #83989b;
+}
+
+.author{
+    text-align: right;
+    font-size: 1.2rem;
+    color: #330a27;
+}
+
+#apostrophe{
+    font-size: 5rem;
+    color: #83989b;
+}
+
+#quote{
+    color: #43969c;
+}
+
